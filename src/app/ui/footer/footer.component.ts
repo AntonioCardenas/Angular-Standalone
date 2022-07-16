@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-footer',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class FooterComponent implements OnInit {
 
   constructor() { }
 

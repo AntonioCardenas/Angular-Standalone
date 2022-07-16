@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-vista2',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  templateUrl: './vista2.component.html',
+  styleUrls: ['./vista2.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class Vista2Component implements OnInit {
 
   constructor() { }
 
